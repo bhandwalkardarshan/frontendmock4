@@ -1,0 +1,64 @@
+/* MyBook.css */
+.mybook-data-container {
+    width: 85%;
+    margin: auto;
+    background-color: #a1a0a0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .mybook-data-form {
+    display: flex;
+    justify-content: space-between;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  h2{
+    text-align: center;
+  }
+
+  .mybook-data-form select {
+    flex-grow: 1;
+    margin-right: 10px;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .data-card {
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 25%;
+    text-align: left;
+  }
+  
+  .data-card h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .data-card p {
+    margin: 5px 0;
+  }
+  
+  .data-card button {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .data-card button:hover {
+    background-color: #f23232;
+  }
+  
